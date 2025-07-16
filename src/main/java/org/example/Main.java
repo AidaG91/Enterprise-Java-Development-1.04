@@ -6,5 +6,8 @@ public class Main {
         int[] numbers = {5, 12, 27, 38, 42};
         int result = Task1.getDifference(numbers);
         System.out.println("La diferencia es: " + result);
+
+        int[] valores = {9, 2, 25, 89, 72};
+        Task2.findSmallest(valores);
     }
 }
